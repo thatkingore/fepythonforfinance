@@ -13,3 +13,15 @@ print(WACC)
 
 current_asset = "Current " + "Assets"
 print(current_asset)
+
+terms = ['NPV', 'DCF', 'Equities', 'FICC', 'LBO', 'M&A']
+print(terms[0])
+print(terms[1])
+
+terms.append("WACC")
+print(terms)
+
+terms.remove("WACC")
+print(terms)
+
+del terms
