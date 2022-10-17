@@ -26,3 +26,14 @@ terms.remove("WACC")
 print(terms)
 
 del terms
+
+terms = {'NPV', 'DCF', 'Equities', 'FICC', 'LBO', 'M&A'}
+
+terms.add('FIG')
+print(terms)
+
+terms.remove('FIG')
+print(terms)
+
+terms.update(["DCF", "WACC"])
+print(terms)
