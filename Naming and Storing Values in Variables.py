@@ -37,3 +37,19 @@ print(terms)
 
 terms.update(["DCF", "WACC"])
 print(terms)
+
+work = [5, 10, 15, 20]
+print(work)
+
+print(type(work))
+
+work_string = str(work)
+print(work_string)
+print(type(work_string))
+
+b = "10000"
+print(b)
+print(type(b))
+a = int(b)
+print(a)
+print(type(a))
