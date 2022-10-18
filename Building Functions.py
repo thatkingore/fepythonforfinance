@@ -49,6 +49,23 @@ else:
     print("y is less than x")
 
 
+# FOR Loops #
+
+# Equals: x == y
+# Not Equal to: x != y
+# Less than: x < y
+# Greater than: x > y
+# Less than or Equal to: x <= y
+# Greater than or Equal to: x >= y
+
 Bonds = ["Fixed rate bonds", "Floating rate bonds", "Zero coupon bonds"]
 for x in Bonds:
     print(x)
+
+# Workout 1 #
+
+terms = ["M&A", "FIG", "FICC"]
+for x in terms:
+    print(x)
+else:
+    print("End of list.")
