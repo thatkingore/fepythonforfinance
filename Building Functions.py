@@ -69,3 +69,9 @@ for x in terms:
     print(x)
 else:
     print("End of list.")
+
+
+i = 2
+while i < 5:
+    print(i)
+    i = i + 2
