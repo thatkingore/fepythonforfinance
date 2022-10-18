@@ -94,3 +94,9 @@ while current_assets < 70:
     current_assets = current_assets + 10
 else:
     print("Exit.")
+
+
+def job_role (department):
+    print("I work in the " + department + " deparment.")
+
+job_role("Risk")
