@@ -47,3 +47,8 @@ elif y == x:
     print("y is equal to x")
 else:
     print("y is less than x")
+
+
+Bonds = ["Fixed rate bonds", "Floating rate bonds", "Zero coupon bonds"]
+for x in Bonds:
+    print(x)
