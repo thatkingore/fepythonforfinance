@@ -96,7 +96,46 @@ else:
     print("Exit.")
 
 
+
+# Functions #
+
+# Equals: x == y
+# Not Equal to: x != y
+# Less than: x < y
+# Greater than: x > y
+# Less than or Equal to: x <= y
+# Greater than or Equal to: x >= y
+
 def job_role (department):
     print("I work in the " + department + " deparment.")
 
 job_role("Risk")
+
+# Workout 1 #
+
+def square(s):
+    print("The square of " + str(s) + " is " + str(s ** 2))
+
+square(2)
+square(3486387)
+# A function that calculates the square of any number
+
+
+# Workout 2 #
+
+def cube(c):
+    print("The cube of " + str(c) + " is " + str(c ** 3))
+
+cube(2)
+cube(3486387)
+# A function that calculates the cube of any number
+
+
+# Workout 3 #
+
+def divide_by_two(d_2):
+    print("Dividing " + str(d_2) + " by 2 gives " + str(d_2 / 2))
+
+divide_by_two(2)
+divide_by_two(3486387)
+# A function that divides any number by 2
