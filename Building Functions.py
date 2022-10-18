@@ -71,7 +71,26 @@ else:
     print("End of list.")
 
 
+
+# WHILE Loops #
+
+# Equals: x == y
+# Not Equal to: x != y
+# Less than: x < y
+# Greater than: x > y
+# Less than or Equal to: x <= y
+# Greater than or Equal to: x >= y
+
 i = 2
 while i < 5:
     print(i)
     i = i + 2
+
+# Workout 1 #
+
+current_assets = 10 # in millions
+while current_assets < 70:
+    print(current_assets)
+    current_assets = current_assets + 10
+else:
+    print("Exit.")
