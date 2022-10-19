@@ -1,1 +1,2 @@
-# fepythonforfinance
+# Financial Edge 
+## Python For Finance
