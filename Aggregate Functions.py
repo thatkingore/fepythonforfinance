@@ -45,3 +45,15 @@ print(len(a))
 print(a.ndim)
 print(a.size)
 print(a.dtype)
+
+del a
+
+# Aggregate Functions
+
+a = np.array([105.4, 205.6, 307.5, 1406.5, 1508.7])
+print(a)
+
+print(a.sum())
+print(a.mean())
+print(a.min())
+print(a.max())
