@@ -3,7 +3,7 @@
 import numpy as np
 
 
-# Example
+# Example with Lists
 
 SP500_Monday = np.array([105.6, 1206.4, 137.6])
 print(SP500_Monday)
@@ -28,3 +28,20 @@ print(price_tuple_array)
 
 print(price_tuple * 10)
 print(price_tuple_array * 10)
+
+
+# Creating Arrays
+
+print(np.zeros((3, 4), dtype = np.int16))
+print(np.ones((2, 3), dtype = np.int16))
+print(np.linspace(0, 2, 9))
+
+# Inspecting Arrays
+
+a = np.array([1, 2, 3])
+
+print(a.shape)
+print(len(a))
+print(a.ndim)
+print(a.size)
+print(a.dtype)
