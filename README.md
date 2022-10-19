@@ -1,7 +1,7 @@
 # Financial Edge 
 ## Python For Finance
 
-### Python Basics
-### Building Functions
-### Libraries
-### NumPy
+#### Python Basics
+#### Building Functions
+#### Libraries
+#### NumPy
