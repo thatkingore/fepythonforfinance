@@ -57,3 +57,4 @@ print(a.sum())
 print(a.mean())
 print(a.min())
 print(a.max())
+
