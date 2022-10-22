@@ -17,6 +17,11 @@ the_time = datetime.now()
 print("The date and time right now is " + str(the_time))
 print("The time right now is " + str(datetime.time(datetime.now())))
 
+# Date Formatting
+
+now = datetime.now()
+print("Today's date is " + str(now.strftime("%A")) + ", " + str(now.strftime("%B")) + " " + str(now.strftime("%d")) + " " + str(now.strftime("%Y")))
+
 # Using Calendars
 
 import calendar
