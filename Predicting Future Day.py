@@ -29,3 +29,10 @@ import calendar
 cal = calendar.TextCalendar(calendar.SUNDAY)
 calen = cal.formatmonth(2020, 10, 0, 0)
 print(calen)
+
+# Local Data and Time
+
+now = datetime.now()
+print("Again, today's date is " + str(now.strftime("%x")))
+print("And the time is " + str(now.strftime("%X")))
+print("The local date and time is " + str(now.strftime("%c")))
