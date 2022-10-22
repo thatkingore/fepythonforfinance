@@ -1,5 +1,28 @@
-# Today's Date
+
+import datetime
 from datetime import date
+import calendar
+
+# Predicting Future Day
+
+future_date = datetime.date(2022, 11, 14)
+print(calendar.day_name[future_date.weekday()])
+future_date = datetime.date(2022, 11, 15)
+print(calendar.day_name[future_date.weekday()])
+future_date = datetime.date(2022, 11, 16)
+print(calendar.day_name[future_date.weekday()])
+future_date = datetime.date(2022, 11, 17)
+print(calendar.day_name[future_date.weekday()])
+future_date = datetime.date(2022, 11, 18)
+print(calendar.day_name[future_date.weekday()])
+
+# Using Calendars
+
+cal = calendar.TextCalendar(calendar.SUNDAY)
+calen = cal.formatmonth(2020, 10, 0, 0)
+print(calen)
+
+# Today's Date
 
 today = date.today()
 print("Today is " + str(today))
@@ -33,12 +56,4 @@ print("24-Hour format time is " + str(now.strftime("%H:%M:%S")))
 print("Again, today's date is " + str(now.strftime("%x")))
 print("And the time is " + str(now.strftime("%X")))
 print("The local date and time is " + str(now.strftime("%c")))
-
-# Using Calendars
-
-import calendar
-
-cal = calendar.TextCalendar(calendar.SUNDAY)
-calen = cal.formatmonth(2020, 10, 0, 0)
-print(calen)
 
