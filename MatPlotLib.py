@@ -1,6 +1,8 @@
 # Using Matplotlib
 
+import pandas as pd
 import matplotlib.pyplot as plt
+import numpy as np
 
 # Plotting a line y=mx by using lists
 
@@ -14,8 +16,6 @@ plt.axis([0, 6, 0, 40])
 plt.show()
 
 # Plotting multiple variations of (t) by defining colours and shapes (patterns)
-
-import numpy as np
 
 t = np.arange(100, 300, 10)
 plt.plot(t, t, 'g--', t, t**3, 'r^')
@@ -34,7 +34,7 @@ plt.ylabel("y-axis and z-axis")
 plt.legend(["this is y", "this is z"])
 plt.show()
 
-# Plotting categorical data by defining x, y, and z
+# Plotting categorical data by defining 'names' and 'values'
 
 names = ["AMZN", "AAPL", "GOOGL"]
 values = [1734.7, 262.1, 1301.4]
@@ -47,4 +47,12 @@ plt.scatter(names, values)
 plt.subplot(133)
 plt.plot(names, values)
 plt.suptitle('Categorical Plotting (Closing Share Price of Companies)')
+plt.show()
+
+# Plotting a box chart
+
+data = pd.read_csv("S_P500Companies.csv")
+print(data.head())
+
+data.Day3.plot(kind="box")
 plt.show()
