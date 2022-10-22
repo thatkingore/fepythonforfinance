@@ -56,3 +56,28 @@ print(data.head())
 
 data.Day3.plot(kind="box")
 plt.show()
+
+# Plotting a box chart
+
+data = pd.read_csv("S_P500Companies.csv")
+print(data.head())
+
+data.Day3.plot(kind="box")
+plt.show()
+
+# Plotting multiple box charts
+
+pd.DataFrame({'Day 1': data.Day1, 'Day 5': data.Day5}).boxplot()
+plt.show()
+
+# Plotting a histogram
+
+data.Day5.plot(kind='hist', histtype='step', bins = 30)
+plt.show()
+
+
+# Plotting multiple histograms
+
+data.Day5.plot.hist(histtype='step', bins = 30)
+data.Day25.plot.hist(histtype='step', bins = 30)
+plt.show()
