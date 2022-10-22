@@ -50,7 +50,6 @@ print("Today's date is " + str(now.strftime("%A")) + ", " + str(now.strftime("%B
 print("12-Hour format time is " + str(now.strftime("%I:%M:%S %p")))
 print("24-Hour format time is " + str(now.strftime("%H:%M:%S")))
 
-
 # Local Data and Time
 
 print("Again, today's date is " + str(now.strftime("%x")))
