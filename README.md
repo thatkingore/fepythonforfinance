@@ -1,5 +1,5 @@
 # Financial Edge 
-## Python For Finance
+### Python For Finance
 
 #### Python Basics
 #### Building Functions
